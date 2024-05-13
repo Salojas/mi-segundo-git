@@ -8,26 +8,42 @@ con gitbash: code .  -->
 <!-- AHORA HAY QUE ARMAR UN NUEVO REPOSITORIO EN LA PAGINA DEL GITHUB -->
 <!--  -->
 
-
+<!-- se recomienda que los archivos de imagen para el icono sean .ico .png y .svg -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Hola Chichita</title>
+    <link rel="shortcut icon" href="./Imagenes/Tiburon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Javichu te ama</h1>
-    <h2>Opciones de amor a Javichu por parte de Chicha</h2> 
-    <label for="1">No lo amas</label>
-    <input type="checkbox" id="1">
-    <label for="2">Lo amas masomenos</label>
-    <input type="checkbox" id="2">
-    <label for="3">Lo amas mucho</label>
-    <input type="checkbox" id="3">
+    <header class="titulo">
+        <h1>Javichu te ama</h1>
+    </header>
+    
+    <nav class="navbar">
+        <a class="navitem"  href="contenido">Contentido</a>
+        <a class="navitem" href="encuesta">Encuesta</a>
+        <a class="navitem" href="contacto">Contacto</a>
+    </nav>
+    
+    <main class="principal">
+    <h2 class="titulomain">Flora lo amara a Javichu?</h2> 
+        <div class="selector">
+            <label for="1">No lo ama</label>
+            <input type="radio" name="amor" id="1">
+            <label for="2">Lo ama mas o menos</label>
+            <input type="radio" name="amor" id="2">
+            <label for="3">Lo ama mucho</label>
+            <input type="radio" name="amor" id="3">
+        </div>
+    </main>
 
-    <footer>
-        <h2>Por contrataciones comunicarse con el</h2>
+    <footer class="pie">
+        <p> Escribime por Whatsapp</p>
+        <a class= "whatsapp"href="https://wa.me/5491122958782">Whatsapp</a>   
     </footer>
 
 </body>
